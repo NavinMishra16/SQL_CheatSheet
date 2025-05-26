@@ -19,12 +19,26 @@
 
 ## String Function : 
 
-## Write an SQL query to fetch “FIRST_NAME” from Worker table in upper case.
-# Answer : upper() keyword return's change the character of atrribute of column into uppercase
+## Q. Write an SQL query to fetch “FIRST_NAME” from Worker table in upper case.
+## Answer : upper() keyword return's change the character of atrribute of column into uppercase
 
 ```SQL
 select UPPER(first_name) from worker;
 ```
+
+## Q. Write an SQL query to print the first three characters of  FIRST_NAME from Worker table.
+## Answer : substing(columnName, start, length) NOTE : start with 1 based indexing
+```SQL
+select substring(first_name, 1, 3) from worker;
+```
+
+
+## Q.Write an SQL query to find the position of the alphabet (‘b’) in the first name column ‘Amitabh’ from Worker table.
+## Answer : 
+
+
+
+
 
 
 
