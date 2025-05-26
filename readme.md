@@ -35,6 +35,10 @@ select substring(first_name, 1, 3) from worker;
 
 ## Q.Write an SQL query to find the position of the alphabet (‘b’) in the first name column ‘Amitabh’ from Worker table.
 ## Answer : 
+```SQL
+select locate('b', first_name) from worker where first_name = 'Amitabh';
+```
+## locate(substring/character, column_Name) -> returns first occurance or index of character or substring 
 
 
 
