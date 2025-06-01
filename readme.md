@@ -39,7 +39,9 @@ select substring(first_name, 1, 3) from worker;
 select locate('b', first_name) from worker where first_name = 'Amitabh';
 ```
 ## locate(substring/character, column_Name) -> returns first occurance or index of character or substring 
-```This is my edit```
+
+
+
 
 
 
